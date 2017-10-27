@@ -11,10 +11,10 @@
 static bool messagePending = false;
 static bool messageSending = true;
 
-static char *connectionString = "HostName=NCD-ESP8266-1.azure-devices.net;DeviceId=Travis-ESP8266-1;SharedAccessKey=jj8xPQ6/9IfXRB8ilikdTmhpmU9hy5p+vhlor/PpEiM=";
+static char *connectionString;
 
-static char *ssid = "Travis-WiFi";
-static char *pass = "Savage99";
+static char *ssid;
+static char *pass;
 
 static int interval = INTERVAL;
 
